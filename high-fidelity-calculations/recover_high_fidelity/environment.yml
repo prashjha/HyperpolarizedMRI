@@ -1,0 +1,19 @@
+name: hpmri
+channels:
+  - conda
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - matplotlib
+  - jupyter
+  - scipy
+  - psutil
+  - numpy
+  - pandas
+  - pip:
+    - SALib
+    - h5py
+    - seaborn
+    - pyvista
+    - meshio
